@@ -1,0 +1,85 @@
+# =========================
+
+# Node / Next.js
+
+# =========================
+
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+
+.env
+.env.local
+.env.development
+.env.production
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+
+# Python
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# Python logs
+
+*.log
+
+# =========================
+
+# Project-specific
+
+# =========================
+
+# Session / scraping artifacts
+
+*.session
+
+# Optional: ignore generated data files
+
+*.csv
+*.json
+
+# =========================
+
+# Misc
+
+# =========================
+
+coverage/
+.cache/
+tmp/
+temp/
